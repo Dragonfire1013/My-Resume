@@ -1,0 +1,37 @@
+ul {
+    list-style-position: inside;
+}
+div {
+    background: rgb(203, 252, 255);
+    border:10px solid rgb(12, 34, 61);
+    border-radius: 25%;
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+body {
+    background: rgb(174, 189, 195);
+}
+#skills,#careergoals,#education {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(112, 176, 255);
+    height: 100px;
+}
+h1,h2,h3,p {
+    text-align: center;
+}
+button {
+    height: 75px;
+    width: 90px;
+    border: 5px solid rgb(12, 34, 61);
+    border-radius: 25%;
+    background: rgb(176, 211, 255);
+}
